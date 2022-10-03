@@ -12,4 +12,8 @@ public class JenkinsController {
         return "This is hello page";
     }
 
+    @RequestMapping("test-jenkins")
+    public String TestJenkins(){
+        return "This is Test Jenkins Page";
+    }
 }
